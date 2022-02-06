@@ -1,0 +1,81 @@
+intents:
+  - hallo
+  - schlechtFühlen
+  - gutFühlen
+  - fragenJa
+  - fragenNein
+  - uberuns
+  - kontakt
+  - uberrasa
+  - dank
+  - botOderMensch
+  - alexaSkill
+  - verabschiedung
+  - entwicklerInfoIntent
+  - inseratErzeugenIntent
+  - abfrageEigeneInserateIntent
+
+
+
+responses:
+  utter_hallo:
+  - text: "Guten Tag, Es freut uns ,dass Sie uns gefunden haben. wie geht es dir ?"
+
+  utter_schlechtFühlen:
+  - text: "Schlechte Leute geht es immer gut! Wie kann ich deine Laune verbessern ?"
+
+  utter_gutFühlen:
+  - text: "Super das freut uns!"
+  utter_frageStellen:
+  - text: "Herzlich Willkomen auf unserer Webseite - Hast du vielleicht Fragen?"
+
+  utter_fragenJa:
+  - text: "Gerne kannst du jetzt deine Frage Stellen .."
+
+  utter_fragenNein:
+  - text: "Alles Klar ,Falls dir was einfällt ,melde dich nochmal Hier."
+
+  utter_uberuns:
+  - text: "Wir sind 2 Informatik Studenten aus der Hochschule Worms - Issam Charef und Saleeh Chaabah."
+
+  utter_entwickler1:
+  - text: "Issam Charef : inf3700@hs-worms.de"
+
+  utter_entwickler2:
+  - text: "Saleh Chaabeh : inf3636@hs-worms.de"
+
+  utter_wirfreuenuns:
+  - text: "Wir freuen uns ,was von dir zu hören!"
+
+  utter_uberrasa:
+  - text: "Dazu gibt es verschidene Möglichkeiten , Eins davon ,was hier benutzt wurde ist Rasa. kontaktier uns : (http://charef.com)."
+
+  utter_dank:
+  - text: "Sehr gerne!"
+
+  utter_andereFrage:
+  - text: "Hast du noch Fragen ?"
+
+  utter_botOderMensch:
+  - text: "Siehst so aus ,dass ich ein Mensch bin? Klar bin ich ein schlauer Chatbot"
+
+  utter_alexaSkill:
+  - text: "4Free ist ein AlexaSkill ,die Menschen ermöglichen Gegenstände zu verschenken. Weitere Informationen in der Dokumentation :  zu finden."
+
+
+  utter_verabschiedung:
+  - text: "Tschüss"
+    image: "https://i.ibb.co/0ZyvrFc/Pngtree-boy-goodbye-gesture-5916830.png"
+
+  utter_entwicklerInfoIntent:
+  - text: "erkannt!"
+
+  utter_inseratErzeugenIntent:
+  - text: "InseratErzeugenIntent erkannt!"
+  utter_abfrageEigeneInserateIntent:
+  - text: "AbfrageEigeneInserateIntent erkannt!"
+
+
+session_config:
+  session_expiration_time: 5
+  carry_over_slots_to_new_session: true

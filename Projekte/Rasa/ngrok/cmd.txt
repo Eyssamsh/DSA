@@ -1,0 +1,6 @@
+ngrok authtoken 211K05zY8Hdijl73sjgUnWLcAkM_DFQFJv7hDrBuGgTgTkDd
+start localhost
+ngrok http 8080 / für mein Localhost
+ngrok http -auth="username:password" 8080
+
+hier für Alexa Console : ngrok http 5000

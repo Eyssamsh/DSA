@@ -1,0 +1,119 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>.. :: 4 Free Alexa App : Verscheneken Sie Ihre Sachen einfach .. </title>
+
+    <!-- Bootstrap/fontawsome/mystyle/googlefont core CSS -->
+    <link href="./css/bootstrap.css" rel="stylesheet" >
+    <link href="./css/style.css" rel="stylesheet" >
+    <link href="./css/font-awesome.css" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        
+
+  </head>
+  
+    <body>
+
+
+  <!-- Navbar start -->
+        <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container">
+              <!-- Brand -->
+                  <a class="navbar-brand" href="index.html">For Free</a>
+                  <!-- Toggler/collapsibe Button -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!-- Navbar links -->
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">For Free Github Projekt</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Chatbot Github Projekt</a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+  <!-- Navbar End -->
+
+  <!-- Home Start -->
+
+        <section class="home d-flex align-items-center">
+            <div class="effect-wrap">
+                <i class="fas fa-plus effect effect-1"></i>
+                <i class="fas fa-plus effect effect-2"></i>
+                <i class="fas fa-circle-notch effect effect-3"></i>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-7"> 
+                        <div class="home-text">
+                            <h1>4 Free Alexa Skill , einfach verschenken.</h1>
+                            <p><br>In dem Projekt , geht es um die Entwicklung einer digitaler Sprachassistenten. Nutzen Sie den Skill und helfen Sie uns usere Straße sauber zu halten.</p>
+                     
+                            <div class="home-btn">
+                                <a href="./Doku/Projektidee_4Free.pdf"><button  id ="trigger" class="btn btn-1"><i class="fas fa-lightbulb"></i> Projektidee</button></a> 
+                                <button href="#" class="btn btn-1 video-play-btn"><i class="fas fa-file-pdf"></i> </button><br><br>
+                                <button href="#" class="btn btn-1"><i class="fas fa-file-code"></i> 4 Free </button>
+                                <button href="#" class="btn btn-1 video-play-btn"><i class="fas fa-file-code"></i> </button>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 text-center"> 
+                        <div class="home-img">
+                            <div class="circle">
+                            </div>
+                            <img src="img/4free.png" alt="4Free App">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+  <!-- Home End -->
+  <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-12 "> Issam Charef - Saleh Chabeh © 2021 - Alle Rechte vorbehalten.</div>
+                </div>
+            </div>
+        </footer>
+  <!-- Home End -->
+
+
+
+      
+      <!-- Bootstrap core CSS -->
+    <link href="./js/jquery.min.js" rel="stylesheet" >
+    <link href="./js/popper.min.js" rel="stylesheet" >
+    <link href="./js/main.js" rel="stylesheet" >
+    <link href="./js/bootstrap.min.js" rel="stylesheet" >
+      
+      <div id="webchat"/>
+      <script src="https://cdn.jsdelivr.net/npm/rasa-webchat@1.5.0/lib/index.min.js"></script>
+      <script>
+        WebChat.default.init({
+          selector: "#webchat",
+          customData: {"language": "de"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+          socketUrl: "http://localhost:5005",
+          socketPath: "/socket.io/",
+          title: "Issam Charef",
+          subtitle: "4Free App!",
+        })
+      </script>
+
+        </body>
+
+</html>
